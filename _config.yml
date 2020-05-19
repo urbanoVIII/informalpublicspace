@@ -5,15 +5,15 @@ permalink: /:year/:month/:day/:title/
 google_analytics: 
 
 name: Thomas Vaeth
-title: The Barber Theme
+title: Public Space as a Catalyst for Change in Informal Settlements
 description: >
   Barber is a blog theme for Jekyll built by Thomas Vaeth for Samesies using HTML, Sass, and JavaScript.
 url: http://barber.samesies.io
-twitter_username: thomasvaeth
+twitter_username: ecosistema
 default_img: /assets/images/seo.jpg
 social:
   - name: twitter
-    url: https://twitter.com/thomasvaeth
+    url: https://twitter.com/ecosistema
   - name: instagram
     url: https://www.instagram.com/thomas.vaeth/
   - name: linkedin
