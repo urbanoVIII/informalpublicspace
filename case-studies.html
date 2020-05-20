@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Case Studies
-image: /assets/images/placeholder-18.jpg
+image: /assets/images/casestudy-001.png
 ---
 <p>This is a selection of case studies related to Public Spaces in Informal Settlements</p>
 
@@ -9,101 +9,26 @@ image: /assets/images/placeholder-18.jpg
  <div id="mapid"></div>
  <script>
 
-  var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+    // Declare Map Object
+    var desktop =window.innerWidth > 768;
+    console.log(desktop);
+    var mymap = L.map('mapid', {
+        center: [30.00, 0.00],
+        zoom: desktop ? 3 : 1,
+        scrollWheelZoom: false,
+        dragging: false
+    });
 
-  L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
+    mymap.once('focus', function() { mymap.scrollWheelZoom.enable(); });
+    mymap.once('focus', function() { mymap.dragging.enable(); });
+
+    //Refeference y tiles
+  L.tileLayer('https://api.mapbox.com/styles/v1/marcoriz/cjz8kx7pj02to1cmqo5k9zwot/tiles/{z}/{x}/{y}?access_token=pk.eyJ1IjoibWFyY29yaXoiLCJhIjoiY2p5eWJ3NGtsMDF4dDNibXJ5M3lrOTVoYSJ9.EqtBAqNYTGR2T-Zpy1NLsg', {
     maxZoom: 18,
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
       '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
       'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    id: 'mapbox/streets-v11',
-    tileSize: 512,
-    zoomOffset: -1
+    id: 'mapbox.streets'
   }).addTo(mymap);
-
-  L.marker([51.5, -0.09]).addTo(mymap);
-
-  L.circle([51.508, -0.11], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 500
-  }).addTo(mymap);
-
-  L.polygon([
-    [51.509, -0.08],
-    [51.503, -0.06],
-    [51.51, -0.047]
-  ]).addTo(mymap);
-
 
 </script>
-
-
-<hr/>
-
-<h1>Artisan cray pickled whatever</h1>
-<h2>Artisan cray pickled whatever</h2>
-<h3>Artisan cray pickled whatever</h3>
-<h4>Artisan cray pickled whatever</h4>
-<h5>Artisan cray pickled whatever</h5>
-<h6>Artisan cray pickled whatever</h6>
-
-<hr/>
-
-<ol>
-  <li>Wes anderson cliche cosby sweater brooklyn vegan organic.</li>
-  <li>Synth ennui semiotics mustache pickled.</li>
-  <li>Food truck freegan vinyl thundercats, post-ironic ennui wes anderson banh mi four loko synth photo booth authentic 3 wolf moon.</li>
-</ol>
-
-<hr/>
-
-<ul>
-  <li>Wes anderson cliche cosby sweater brooklyn vegan organic.</li>
-  <li>Synth ennui semiotics mustache pickled.</li>
-  <li>Food truck freegan vinyl thundercats, post-ironic ennui wes anderson banh mi four loko synth photo booth authentic 3 wolf moon.</li>
-</ul>
-
-<hr/>
-
-<blockquote>
-  <p>“Bicycle rights mustache artisan, keytar lo-fi sustainable fap stumptown vegan salvia freegan four loko terry richardson.”</p>
-  <cite>Wolf Moon Cred</cite>
-</blockquote>
-
-<hr/>
-
-<pre>
-<code>
-code {
-  padding: 0.25em 0.5em;
-
-  color: $color-black;
-  background: $color-lightgrey;
-}
-</code>
-</pre>
-
-<hr/>
-
-<img src="/assets/images/placeholder-18.jpg" alt="Grid Image"/>
-<p>You can <code>use inline code</code> and append <code>#full</code> to the end of an image URL for full width images.</p>
-
-<img src="/assets/images/placeholder-18.jpg#full" alt="Full Image"/>
-
-<hr/>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XFYWazblaUA" frameborder="0" allowfullscreen></iframe>
-
-<hr/>
-
-<iframe src="https://player.vimeo.com/video/189919038?title=0&byline=0&portrait=0" width="640" height="640" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<hr/>
-
-<iframe height='400' scrolling='no' title='Flexbox Flex-Grow Mast' src='//codepen.io/thomasvaeth/embed/qmbKVq/?height=265&theme-id=0&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'></iframe>
-
-<hr/>
-
-<p>American apparel jean shorts terry richardson squid. Letterpress tattooed cray beard pinterest. Jean shorts tofu wayfarers, fap PBR swag banh mi. Organic chillwave scenester wayfarers semiotics salvia messenger bag, vice odd future.</p>

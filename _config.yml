@@ -36,8 +36,8 @@ mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
 # Author settings
 author:
   - name: Ecosistema Urbano
-    bio: Ecosistema Urbano is a 
-    url: http://thomasvaeth.com
+    bio: Ecosistema Urbano is a design and consulting company operating within the fields of urbanism, architecture, engineering and sociology, with offices in Madrid and Miami.
+    url: https://www.ecosistemaurbano.com
 
 # Pagination settings
 pagination:
