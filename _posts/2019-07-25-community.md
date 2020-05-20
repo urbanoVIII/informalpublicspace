@@ -4,7 +4,7 @@ title: "Community and Social Development"
 author: "Ecosistema Urbano"
 categories: documentation
 tags: [documentation]
-image: /assets/images/ecosistemaurbano-tegucigalpa.jpg
+image: /assets/images/Community.jpg
 date: 2019-07-25
 ---
 

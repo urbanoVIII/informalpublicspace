@@ -4,7 +4,7 @@ title: "Implementation and Management"
 author: "Ecosistema Urbano"
 categories: documentation
 tags: [documentation]
-image: /assets/images/ecosistemaurbano-tegucigalpa.jpg
+image: /assets/images/Implementation.jpg
 date: 2019-07-30
 ---
 

@@ -4,7 +4,7 @@ title: "Education and Innovation"
 author: "Ecosistema Urbano"
 categories: documentation
 tags: [documentation]
-image: /assets/images/ecosistemaurbano-tegucigalpa.jpg
+image: /assets/images/Education.jpg
 date: 2019-07-27
 ---
 

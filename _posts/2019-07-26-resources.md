@@ -4,7 +4,7 @@ title: "Resources and Waste"
 author: "Ecosistema Urbano"
 categories: documentation
 tags: [documentation]
-image: /assets/images/ecosistemaurbano-tegucigalpa.jpg
+image: /assets/images/Resources.jpg
 date: 2019-07-26
 ---
 

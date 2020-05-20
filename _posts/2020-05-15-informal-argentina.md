@@ -4,7 +4,7 @@ title: "Informal settlements in Argentina"
 author: "Ecosistema Urbano"
 categories: documentation
 tags: [documentation]
-image: /assets/images/InformalBsAs.jpg
+image: /assets/images/ecosistemaurbano-barrio31.jpg
 date: 2020-05-15
 ---
 
