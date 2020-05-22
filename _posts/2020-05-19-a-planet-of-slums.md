@@ -8,7 +8,8 @@ image: /assets/images/UrbanPop.jpg
 date: 2020-05-19
 ---
 
-## An Urban World
+## An Urban World.
+
 As predicted by [Mike Davis](https://en.wikipedia.org/wiki/Mike_Davis_(scholar)) in his famous book _Planet of Slums_ in 2007 for the first time the urban population has outnumbered the rural one. [1][1] In this process of accelerated urbanization, today, more than 55% of the world's population lives in an urban area or city, with that figure set to rise to 68% over the coming decades (According to the "[Population Division](https://population.un.org/wpp/)" report from the UN's Department of Economic and Social Affairs).
 
 ![Urban Population Growth 1950-2050](/assets/images/Urban-Population-Growth-1950-to-2050.gif "Urban Population Growth 1950 to 2050")
