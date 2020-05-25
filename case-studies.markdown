@@ -44,7 +44,7 @@ var radius_size =4;
     id: 'mapbox.streets'
   }).addTo(mymap);
 
-  console.log("Hello");
+  console.log("Hello from the other side");
 
   mymap.on('zoomend',function(){
   var currentZoom = mymap.getZoom();
@@ -63,8 +63,10 @@ var radius_size =4;
       console.log(feature.properties.Picture);
       var photo = '<img src="'+feature.properties.Picture+'"/>';
       console.log(photo);
+      var link = '/2019/01/01/' + feature.properties.Permalink;
+      console.log(link);
 
-      layer.bindPopup( photo + '<strong>' + feature.properties.Name + '</strong> <br />' +'<strong> Authors: </strong>' + feature.properties.Author + '<br />'  + '<strong> Year: </strong>' + feature.properties.Year + '<br />')
+      layer.bindPopup('<a href="' + link + '">' + photo +'</a><p><strong>' + feature.properties.Name + '</strong> </p>' +'<p><br><strong> Authors: </strong>' + feature.properties.Author +'</p><p><br>' + '<strong> Year: </strong>' + feature.properties.Year + '</p>')
     }
   }).addTo(mymap);
 });

@@ -20,9 +20,9 @@ RENABAP is a survey that accounts for more than 4,000 settlements across the cou
 
 At large, the course has been organized following 6 topics, each of which has been framed and understood through the lenses of public space:
 
-* Community and Social Development
-* Resources and Waste
-* Education and Innovation
-* Mobility and Accessibility
-* Infrastructure and Resilience
-* Implementation and Management
+* [Community and Social Development](/2019/07/25/Community)
+* [Resources and Waste](/2019/07/26/Resources)
+* [Education and Innovation](/2019/07/27/Education)
+* [Mobility and Accessibility](/2019/07/28/Mobility)
+* [Infrastructure and Resilience](/2019/07/29/Infrastructure)
+* [Implementation and Management](/2019/07/30/Implementation)
