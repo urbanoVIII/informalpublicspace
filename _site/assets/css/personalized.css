@@ -1,0 +1,39 @@
+#mapid {
+ height: 750px;
+ width: 750px;
+ }
+
+#bibliography.page-layout p {
+	font-family:Lora,serif;
+	margin-block-start: .50em;
+    margin-block-end: .50em;
+}
+
+#bibliography.page-layout ul {
+	font-size: .75em;
+	line-height: 1.2;
+	margin-bottom: 1rem;
+}
+
+#case-studies.page-layout p, ul {
+	font-family:Lora,serif;
+	margin-block-start: .50em;
+    margin-block-end: .50em;
+}
+
+#case-studies.page-layout span.blue  {
+color: #0088a5;
+}
+
+#case-studies.page-layout span.yellow  {
+color: #fdb913;
+}
+
+#case-studies.page-layout span.magenta  {
+color: #ed0c6e;
+}
+
+
+a:visited {
+	color: black;
+	}
