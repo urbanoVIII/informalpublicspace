@@ -2,7 +2,6 @@
 layout: page
 title: Bibliography
 ---
-
 A short bibliography following the six main topics of the research.
 
 ##### Urbanization, Informality, and the Role of Public Space

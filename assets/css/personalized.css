@@ -3,19 +3,19 @@
  width: 750px;
  }
 
-#bibliography.page-layout p {
+#bibliography.page-layout .post__content p {
 	font-family:Lora,serif;
 	margin-block-start: .50em;
     margin-block-end: .50em;
 }
 
-#bibliography.page-layout ul {
+#bibliography.page-layout .post__content ul {
 	font-size: .75em;
 	line-height: 1.2;
 	margin-bottom: 1rem;
 }
 
-#case-studies.page-layout p, ul {
+#case-studies.page-layout .post__content p, ul {
 	font-family:Lora,serif;
 	margin-block-start: .50em;
     margin-block-end: .50em;
@@ -37,3 +37,66 @@ color: #ed0c6e;
 a:visited {
 	color: black;
 	}
+
+.modal {
+  margin-top: 50px;
+}
+.modal li {
+  font-family: Roboto, sans-serif;
+}
+
+.modal img {
+  max-width: 100%;
+}
+.modal-box {
+  display: flex;
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 5px;
+}
+
+.modal-box h1 {
+  font-size: 6vw;
+  color: white;
+  text-align: left;
+  line-height: 0.7;
+  float: left;
+
+}
+.modal-box p {
+  float: left;
+  color: white;
+  font-size: 2vh;
+  line-height: 1.25;
+  margin-left: 10px;
+}
+
+.modal-box.yellow {
+  background: #fdb913;
+}
+
+.modal-box.blue {
+  background: #0088a5;
+}
+
+.modal-box.magenta {
+  background: #ed0c6e;
+}
+
+.modal-box.grey {
+  background: #cccccc;
+}
+
+
+.modal-box.left {
+  flex: 25%;
+}
+
+.modal-box.right {
+  flex: 75%;
+}
+
+.row:after {
+  content "";
+  display: table;
+  clear: both;
