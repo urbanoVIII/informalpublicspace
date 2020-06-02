@@ -6,7 +6,9 @@ title: Case Studies
 Case studies were selected through snowball sampling, starting with those most related to public space interventions in informal settlements worldwide. From then on, the sample grew based on references and bibliography used in the initial cases.
 
 Interventions span across a wide range of scopes and implementation methods, and they may be found in diverse locations of the Global South. In total, the 20 case studies cover 13 countries: 5 in South America, 4 in North America, in 2 Africa, and 2 in Asia. Notably, this sample is not statistically significant, but it serves as a well-rounded introduction to possible actions in informal settlements worldwide.
-&nbsp;
+<br/>
+<br/>
+###### Georeferenced case studies:
 <div id="mapid"></div>
 
 <script>
@@ -44,8 +46,6 @@ var radius_size =4;
     id: 'mapbox.streets'
   }).addTo(mymap);
 
-  console.log("Hello from the other side");
-
   mymap.on('zoomend',function(){
   var currentZoom = mymap.getZoom();
   radius_size = Math.pow(1.27,currentZoom);
@@ -59,12 +59,9 @@ var radius_size =4;
       return L.circleMarker(latlng, col_style);
     },
      onEachFeature: function (feature, layer){
-      
-      console.log(feature.properties.Picture);
+
       var photo = '<img src="'+feature.properties.Picture+'"/>';
-      console.log(photo);
       var link = '/2019/01/01/' + feature.properties.Permalink;
-      console.log(link);
 
       layer.bindPopup('<a href="' + link + '">' + photo +'</a><p><strong>' + feature.properties.Name + '</strong> </p>' +'<p><br><strong> Authors: </strong>' + feature.properties.Author +'</p><p><br>' + '<strong> Year: </strong>' + feature.properties.Year + '</p>')
     }
@@ -72,13 +69,21 @@ var radius_size =4;
 });
 
 </script>
+<br/>
+###### Case Studies List:
+<div id="tablecase">
+  <script>
+  createTable();
+  </script>
+</div>
+
+<br/>
+###### The components of each diagrammatic summary should be read as follows:
 
 Furthermore, the team established an analytical framework to study each case based on exploring what each intervention consisted of, how each process unfolded, and who was involved.
 
 ![Case Study Reference](/assets/images/CaseStudy_Ref.jpg "Case Study Reference")
 
-
-The components of each diagrammatic summary should be read as follows:
 
 **The main areas of study** are shown in the circle, which is divided into three equal parts. Titles per area exist in the outermost layer of the circle, and subtitles are shown inside the gray boxes. As previously stated, each project received a score from 0 to 3 per subtopic, and such a rating is shown through the colored icons. Higher rankings are expressed through larger icons closer to the edges of the circle, while lower-ranking icons diminish in size and are shown closer to the center of the diagram.More elaborate descriptions of each rating may be found underneath the diagrammatic summaries, inside text boxes. If a project received a 0 in any of the subtopics, an empty circle will be present in the innermost layer and the subtopic title will be outlined in white. Only one colored circle, or icon, will be shown per subtopic. For an easier read, each area is also color-coded as follows:
 
@@ -92,10 +97,6 @@ Strategies (how?):
 Stakeholders (who?):
 <span class="yellow">YELLOW </span>
 
-
-##### Subtopic with empty rating (example)
-
-  * The location of each intervention is depicted in the central map. The country in which each case study exits will be highlighted in black, and the specific location will be shown in the text underneath the map.
   * The budget of each proposal is shown in the upper left corner of the diagram, outside the circle. When available, the budget will be written underneath the diagram, and the circle within the diagram will turn to black. A larger circle shows a larger budget in comparison to the other projects, and the same logic applies to a smaller one.
   * The date of implementation of each case study is shown in the upper right corner of the diagram, outside the circle. Specifically, the date will be stated underneath the calendar icon.
   * The case study’s relevance to the overall research is shown in the bottom right corner of the diagram, outside the circle. Similar to the area ratings, each proposal received a score from 1 to 3 in this area, which will be clearly stated both through text and through a bar diagram (in black).

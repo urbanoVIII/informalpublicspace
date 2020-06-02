@@ -1184,7 +1184,7 @@ ol {
   @media (min-width: 32em) {
     .post ol,
     .post ul:not(.post__social) {
-      font-size: 1.25em; } }
+      font-size: 1em; } }
   .post ol > li,
   .post ul:not(.post__social) > li {
     position: relative; }

@@ -100,3 +100,56 @@ a:visited {
   content "";
   display: table;
   clear: both;
+}
+
+#tablecase table{
+  font-family: Roboto, sans-serif;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  table-layout: fixed;
+  word-break:break-all;
+  font-size: 0.7em;
+}
+
+
+#tablecase td, #tablecase th {
+  border: 1px solid #eee;
+  padding: 4px;
+}
+
+#tablecase tr:hover {background-color: #fdb913;}
+
+#tablecase th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #ddd;
+  color: white;
+  font-size: 1em;
+}
+
+.colPicture {
+  width: 160px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.colName {
+  width: 30%;
+}
+
+.colAuthor {
+  width: 35%;
+}
+
+.colCountry {
+  width: 10%;
+}
+
+.colYear {
+  width: 5%;
+}
+
+tr[data-href] {
+  cursor: pointer;
+}
