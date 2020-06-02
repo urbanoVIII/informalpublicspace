@@ -4,7 +4,7 @@ title: "Night-Time Design"
 author: "Ecosistema Urbano"
 categories: documentation
 tags: [case study]
-image: /assets/images/Cases/NightTime0.jpg
+image: /assets/images/Cases/NightTime.jpg
 date: 2019-01-1
 ---
 

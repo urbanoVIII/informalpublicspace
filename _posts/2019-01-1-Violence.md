@@ -4,7 +4,7 @@ title: "Violence Prevention Through Urban Upgrading"
 author: "Ecosistema Urbano"
 categories: documentation
 tags: [case study]
-image: /assets/images/Cases/Violence0.jpg
+image: /assets/images/Cases/Violence.jpg
 date: 2019-01-1
 ---
 

@@ -4,7 +4,7 @@ title: "Tegucigalpa Revitalization"
 author: "Ecosistema Urbano"
 categories: documentation
 tags: [case study]
-image: /assets/images/Cases/Tegucigalpa0.jpg
+image: /assets/images/Cases/Tegucigalpa.jpg
 date: 2019-01-1
 ---
 

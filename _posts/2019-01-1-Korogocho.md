@@ -4,7 +4,7 @@ title: "Korogocho Slum Upgrading Program"
 author: "Ecosistema Urbano"
 categories: documentation
 tags: [case study]
-image: /assets/images/Cases/Korogocho0.jpg
+image: /assets/images/Cases/Korogocho.jpg
 date: 2019-01-1
 ---
 

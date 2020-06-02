@@ -4,7 +4,7 @@ title: "PiggyBack Yard"
 author: "Ecosistema Urbano"
 categories: documentation
 tags: [case study]
-image: /assets/images/Cases/PiggyBack0.jpg
+image: /assets/images/Cases/PiggyBack.jpg
 date: 2019-01-1
 ---
 

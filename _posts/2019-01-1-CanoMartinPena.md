@@ -3,7 +3,7 @@ layout: post
 title: "Caño Martín Peña Community Land Trust"
 author: "Ecosistema Urbano"
 categories: documentation
-image: /assets/images/Cases/CanoMartinPena0.jpg
+image: /assets/images/Cases/CanoMartinPena.jpg
 date: 2019-01-1
 tags:
 - case study

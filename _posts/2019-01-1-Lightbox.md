@@ -4,7 +4,7 @@ title: "Lightbox"
 author: "Ecosistema Urbano"
 categories: documentation
 tags: [case study]
-image: /assets/images/Cases/Lightbox0.jpg
+image: /assets/images/Cases/Lightbox.jpg
 date: 2019-01-1
 ---
 

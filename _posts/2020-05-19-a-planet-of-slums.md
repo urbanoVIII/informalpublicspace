@@ -4,7 +4,7 @@ title: "Informality: a global overview"
 author: "Ecosistema Urbano"
 categories: documentation
 tags: [documentation]
-image: /assets/images/UrbanPop.jpg
+image: /assets/images/01-Intro.png
 date: 2020-05-19
 ---
 

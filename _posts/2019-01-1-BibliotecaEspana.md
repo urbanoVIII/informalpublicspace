@@ -3,7 +3,7 @@ layout: post
 title: "Parque Biblioteca Espana"
 author: "Ecosistema Urbano"
 categories: documentation
-image: /assets/images/Cases/BibliotecaEspana0.jpg
+image: /assets/images/Cases/BibliotecaEspana.jpg
 date: 2019-01-1
 tags:
 - case study

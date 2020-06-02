@@ -4,7 +4,7 @@ title: "Comunidad María Auxiliadora"
 author: "Ecosistema Urbano"
 categories: documentation
 tags: [case study]
-image: /assets/images/Cases/MariaAuxiliadora0.jpg
+image: /assets/images/Cases/MariaAuxiliadora.jpg
 date: 2019-01-1
 ---
 

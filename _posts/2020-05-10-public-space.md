@@ -4,7 +4,7 @@ title: "Public Space as a Catalyst for Change in Informal Settlements"
 author: "Ecosistema Urbano"
 categories: documentation
 tags: [documentation]
-image: /assets/images/ecosistemaurbano-tegucigalpa.jpg
+image: /assets/images/03-Catalyst.png
 date: 2020-05-10
 ---
 

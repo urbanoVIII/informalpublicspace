@@ -3,7 +3,7 @@ layout: post
 title: "Fazendinhando"
 author: "Ecosistema Urbano"
 categories: documentation
-image: /assets/images/Cases/Fazendinhando0.jpg
+image: /assets/images/Cases/Fazendinhando.jpg
 date: 2019-01-1
 tags:
 - case study

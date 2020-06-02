@@ -5,66 +5,7 @@ pagination:
 ---
 
 
-<div id="ex1" class="modal">
-        <h4> This website is the result of an ongoing research about Public Space in Informal Settlements that the Interamerican Development Bank and Ecosistema Urbano began in 2019.</h4>
 
-        <p><br/> The research project is articulated into 4 main branches: </p>
-
-        <a href="/2020/05/10/public-space/">
-          <div class="modal-box grey row">
-              <div class="left">
-                <h1> 1 </h1>
-              </div>
-              <div class="right">
-                <p> An introduction to the research topic </p>
-              </div>
-          </div>
-        </a>
-       
-
-        <a href="/case-studies/">
-          <div class="modal-box yellow row">
-            <div class"left">
-              <h1> 2 </h1>
-            </div>
-            <div class"right">
-              <p> A repository of georeferenced case studies related to the topic. </p>
-            </div>
-          </div>
-        </a>
-
-        <div class="modal-box magenta row">
-          <div class"left">
-            <h1> 3 </h1>
-          </div>
-          <div class="right">
-            <p> An interpretation of the case studies research results. </p>
-          </div>
-        </div>
-
-        <div class="modal-box blue row">
-          <div class="left">
-            <h1> 4 </h1>
-          </div>
-          <div class="right">
-            <p> A closer scale view of a sample of existing informal settlements in Argentina. </p>
-          </div>
-        </div>
-</div>
-
-<script>
-if (sessionStorage.clickcount) {
-  sessionStorage.clickcount = Number(sessionStorage.clickcount) + 1;
-} else {
-  sessionStorage.clickcount = 1;
-}
-console.log(sessionStorage.clickcount);
-if (sessionStorage.clickcount == 1) {
-$('#ex1').modal({
-  fadeDuration: 500
-});
-}
-</script>
 
 <!--
   <div id="landingheader" class="modal">

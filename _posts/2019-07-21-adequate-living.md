@@ -8,5 +8,5 @@ image: /assets/images/UrbanIndicators.jpg
 date: 2019-07-21
 ---
 
-## The definition of Slum
+## The definition of Informal Settlement
 

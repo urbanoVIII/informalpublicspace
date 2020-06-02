@@ -4,7 +4,7 @@ title: "Parque Hídrico La Quebradora"
 author: "Ecosistema Urbano"
 categories: documentation
 tags: [case study]
-image: /assets/images/Cases/Quebradora0.jpg
+image: /assets/images/Cases/Quebradora.jpg
 date: 2019-01-1
 ---
 
